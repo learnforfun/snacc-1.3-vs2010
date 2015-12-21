@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-any.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-vals.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\kwd.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\rules.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\types.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-any.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-code.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-free.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-type.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-vals.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\kwd.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\rules.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\util.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\cond.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-any.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-code.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-vals.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\idl-gen\rules.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\idl-gen\types.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\str-util.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\tag-util.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\define.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\dependency.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\do-macros.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\err-chk.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\exports.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\gen-tbls.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\lex-asn1.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\lib-types.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\link-types.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\link-values.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\mem.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\meta.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\normalize.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\oid.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\parse-asn1.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\print.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\recursive.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\snacc-util.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\snacc.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\tbl.c" />
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\val-parser.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8046F82D-2523-4138-9887-3716BBF58B1A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>snacc</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)snacc-1.3-src\compiler\core;$(SolutionDir)snacc-1.3-src\c-lib\inc;$(SolutionDir)snacc-1.3-src\c-lib\boot;$(SolutionDir)snacc-1.3-src\compiler\back-ends;$(SolutionDir)snacc-1.3-src\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)snacc-1.3-src\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)snacc-1.3-src\compiler\core;$(SolutionDir)snacc-1.3-src\c-lib\inc;$(SolutionDir)snacc-1.3-src\c-lib\boot;$(SolutionDir)snacc-1.3-src\compiler\back-ends;$(SolutionDir)snacc-1.3-src\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)snacc-1.3-src\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);COMPILER
+;USE_NIBBLE_MEMORY=0
+;USE_EXP_BUF;
+FLEX_IN_USE</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libasn1cCebuf.lib;libfl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);COMPILER
+;USE_NIBBLE_MEMORY=0
+;USE_EXP_BUF;
+FLEX_IN_USE</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>libasn1cCebuf.lib;libfl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

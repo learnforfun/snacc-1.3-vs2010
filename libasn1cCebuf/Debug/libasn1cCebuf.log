@@ -1,0 +1,132 @@
+﻿生成启动时间为 2015-12-21 21:39:03。
+项目“C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\libasn1cCebuf\libasn1cCebuf.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在对“Debug\libasn1cCebuf.unsuccessfulbuild”执行 Touch 任务。
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D USE_EXP_BUF /D COMPILER /D USE_NIBBLE_MEMORY=0 /D FLEX_IN_USE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\snacc-1.3-src\c-lib\Cebuf\asn-any.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-bits.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-bool.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-enum.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-int.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-len.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-list.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-null.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-octs.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-oid.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-real.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-tag.c" "..\snacc-1.3-src\c-lib\Cebuf\asn-useful.c" "..\snacc-1.3-src\c-lib\Cebuf\exp-buf.c" "..\snacc-1.3-src\c-lib\Cebuf\hash.c" "..\snacc-1.3-src\c-lib\Cebuf\nibble-alloc.c" "..\snacc-1.3-src\c-lib\Cebuf\print.c" "..\snacc-1.3-src\c-lib\Cebuf\str-stk.c"
+  str-stk.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  print.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  nibble-alloc.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\nibble-alloc.c(112): warning C4018: “<”: 有符号/无符号不匹配
+  hash.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\hash.c(113): warning C4013: “memset”未定义；假设外部返回 int
+  exp-buf.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\exp-buf.c(561): warning C4013: “memcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\exp-buf.c(565): warning C4018: “>=”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\exp-buf.c(641): warning C4018: “<=”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\exp-buf.c(705): warning C4018: “>”: 有符号/无符号不匹配
+  asn-useful.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-useful.c(399): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-useful.c(398): warning C4101: “listLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-useful.c(454): warning C4101: “tagId2”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-useful.c(453): warning C4101: “elmtLen2”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-useful.c(599): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-useful.c(598): warning C4101: “listLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-useful.c(653): warning C4101: “tagId2”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-useful.c(652): warning C4101: “elmtLen2”: 未引用的局部变量
+  asn-tag.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  asn-real.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-real.c(796): warning C4018: “<”: 有符号/无符号不匹配
+  asn-oid.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(125): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(130): warning C4244: “=”: 从“unsigned long”转换到“unsigned short”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(136): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(138): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(235): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(236): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(261): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(262): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(289): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(307): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-oid.c(309): warning C4018: “<”: 有符号/无符号不匹配
+  asn-octs.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-octs.c(209): warning C4013: “memcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-octs.c(282): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-octs.c(290): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-octs.c(310): warning C4013: “memcmp”未定义；假设外部返回 int
+  asn-null.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  asn-list.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  asn-len.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(46): warning C4244: “函数”: 从“AsnLen”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(51): warning C4244: “函数”: 从“AsnLen”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(57): warning C4244: “函数”: 从“AsnLen”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(58): warning C4244: “函数”: 从“AsnLen”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(64): warning C4244: “函数”: 从“AsnLen”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(65): warning C4244: “函数”: 从“AsnLen”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(66): warning C4244: “函数”: 从“AsnLen”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(72): warning C4244: “函数”: 从“AsnLen”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(73): warning C4244: “函数”: 从“AsnLen”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(74): warning C4244: “函数”: 从“AsnLen”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(95): warning C4244: “函数”: 从“long”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-len.c(101): warning C4244: “函数”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+  asn-int.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-int.c(121): warning C4244: “函数”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-int.c(166): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-int.c(271): warning C4244: “函数”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-int.c(298): warning C4244: “函数”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-int.c(350): warning C4018: “<”: 有符号/无符号不匹配
+  asn-enum.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  asn-bool.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  asn-bits.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-bits.c(120): warning C4244: “函数”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-bits.c(330): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-bits.c(372): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-bits.c(393): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\cebuf\asn-bits.c(416): warning C4018: “<”: 有符号/无符号不匹配
+  asn-any.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c-lib\inc\asn-config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+Lib:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\libasn1cCebuf.lib" /NOLOGO "Debug\asn-any.obj"
+  "Debug\asn-bits.obj"
+  "Debug\asn-bool.obj"
+  "Debug\asn-enum.obj"
+  "Debug\asn-int.obj"
+  "Debug\asn-len.obj"
+  "Debug\asn-list.obj"
+  "Debug\asn-null.obj"
+  "Debug\asn-octs.obj"
+  "Debug\asn-oid.obj"
+  "Debug\asn-real.obj"
+  "Debug\asn-tag.obj"
+  "Debug\asn-useful.obj"
+  "Debug\exp-buf.obj"
+  Debug\hash.obj
+  "Debug\nibble-alloc.obj"
+  Debug\print.obj
+  Debug\sbuf.obj
+  "Debug\str-stk.obj"
+  "Debug\tbl-dbg.obj"
+  "Debug\tbl-dec.obj"
+  "Debug\tbl-enc.obj"
+  "Debug\tbl-free.obj"
+  "Debug\tbl-gen.obj"
+  "Debug\tbl-print.obj"
+  "Debug\tbl-util.obj"
+  Debug\tbl.obj
+  libasn1cCebuf.vcxproj -> C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\libasn1cCebuf.lib
+FinalizeBuildStatus:
+  正在删除文件“Debug\libasn1cCebuf.unsuccessfulbuild”。
+  正在对“Debug\libasn1cCebuf.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\libasn1cCebuf\libasn1cCebuf.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.02

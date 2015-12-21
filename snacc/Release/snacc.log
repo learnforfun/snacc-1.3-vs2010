@@ -1,0 +1,76 @@
+﻿生成启动时间为 2015-12-21 22:10:54。
+项目“C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\snacc\snacc.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在对“Release\snacc.unsuccessfulbuild”执行 Touch 任务。
+ClCompile:
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+  所有输出均为最新。
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Release\snacc.exe" /INCREMENTAL:NO /NOLOGO libasn1cCebuf.lib libfl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\snacc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Release\snacc.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Release\snacc.lib" /MACHINE:X86 "Release\..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-any.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-vals.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c++-gen\kwd.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c++-gen\rules.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c++-gen\types.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-any.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-code.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-free.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-type.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-vals.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\kwd.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\rules.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\type-info.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\c-gen\util.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\cond.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\str-util.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\tag-util.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-any.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-code.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-vals.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\idl-gen\rules.obj"
+  "Release\..\snacc-1.3-src\compiler\back-ends\idl-gen\types.obj"
+  "Release\..\snacc-1.3-src\compiler\core\define.obj"
+  "Release\..\snacc-1.3-src\compiler\core\dependency.obj"
+  "Release\..\snacc-1.3-src\compiler\core\do-macros.obj"
+  "Release\..\snacc-1.3-src\compiler\core\err-chk.obj"
+  "Release\..\snacc-1.3-src\compiler\core\exports.obj"
+  "Release\..\snacc-1.3-src\compiler\core\gen-tbls.obj"
+  "Release\..\snacc-1.3-src\compiler\core\lex-asn1.obj"
+  "Release\..\snacc-1.3-src\compiler\core\lib-types.obj"
+  "Release\..\snacc-1.3-src\compiler\core\link-types.obj"
+  "Release\..\snacc-1.3-src\compiler\core\link-values.obj"
+  "Release\..\snacc-1.3-src\compiler\core\mem.obj"
+  "Release\..\snacc-1.3-src\compiler\core\meta.obj"
+  "Release\..\snacc-1.3-src\compiler\core\normalize.obj"
+  "Release\..\snacc-1.3-src\compiler\core\oid.obj"
+  "Release\..\snacc-1.3-src\compiler\core\parse-asn1.obj"
+  "Release\..\snacc-1.3-src\compiler\core\print.obj"
+  "Release\..\snacc-1.3-src\compiler\core\recursive.obj"
+  "Release\..\snacc-1.3-src\compiler\core\snacc-util.obj"
+  "Release\..\snacc-1.3-src\compiler\core\snacc.obj"
+  "Release\..\snacc-1.3-src\compiler\core\tbl.obj"
+  "Release\..\snacc-1.3-src\compiler\core\val-parser.obj"
+  正在生成代码
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc\core\parse-asn1.y(3067): warning C4716: “yyerror”: 必须返回一个值
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc\core\lex-asn1.l(501): warning C4716: “LexBeginInitialContext”: 必须返回一个值
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc\core\lex-asn1.l(495): warning C4716: “LexBeginBraceBalContext”: 必须返回一个值
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc\core\lex-asn1.l(489): warning C4716: “LexBeginMacroDefContext”: 必须返回一个值
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(746): warning C4715: “AddFirstTag”: 不是所有的控件路径都返回值
+  已完成代码的生成
+  snacc.vcxproj -> C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Release\snacc.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Release\snacc.exe;#1" /manifest Release\snacc.exe.intermediate.manifest
+FinalizeBuildStatus:
+  正在删除文件“Release\snacc.unsuccessfulbuild”。
+  正在对“Release\snacc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\snacc\snacc.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.85

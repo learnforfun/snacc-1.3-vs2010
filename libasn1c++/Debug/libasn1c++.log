@@ -1,0 +1,43 @@
+﻿生成启动时间为 2015-12-21 22:45:54。
+项目“C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\libasn1c++\libasn1c++.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在对“Debug\libasn1c++.unsuccessfulbuild”执行 Touch 任务。
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D META=0 /D FLEX_IN_USE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\snacc-1.3-src\c++-lib\c++\tcl-if.cpp"
+  tcl-if.cpp
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c++-lib\inc\asn-oid.h(87): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\c++-lib\inc\asn-octs.h(101): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D META=0 /D FLEX_IN_USE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\snacc-1.3-src\c++-lib\c++\tkAppInit.c"
+  tkAppInit.c
+Lib:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\libasn1c++.lib" /NOLOGO "Debug\asn-any.obj"
+  "Debug\asn-bits.obj"
+  "Debug\asn-bool.obj"
+  "Debug\asn-enum.obj"
+  "Debug\asn-int.obj"
+  "Debug\asn-len.obj"
+  "Debug\asn-list.obj"
+  "Debug\asn-null.obj"
+  "Debug\asn-octs.obj"
+  "Debug\asn-oid.obj"
+  "Debug\asn-real.obj"
+  "Debug\asn-tag.obj"
+  "Debug\asn-type.obj"
+  "Debug\asn-useful.obj"
+  Debug\hash.obj
+  Debug\meta.obj
+  Debug\print.obj
+  "Debug\str-stk.obj"
+  "Debug\tcl-if.obj"
+  Debug\tkAppInit.obj
+meta.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+asn-list.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  libasn1c++.vcxproj -> C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\libasn1c++.lib
+FinalizeBuildStatus:
+  正在删除文件“Debug\libasn1c++.unsuccessfulbuild”。
+  正在对“Debug\libasn1c++.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\libasn1c++\libasn1c++.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.68

@@ -1,0 +1,498 @@
+﻿生成启动时间为 2015-12-21 22:11:06。
+项目“C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\snacc\snacc.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在创建“Debug\snacc.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D COMPILER /D USE_NIBBLE_MEMORY=0 /D USE_EXP_BUF /D FLEX_IN_USE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-any.c" "..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c" "..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-vals.c" "..\snacc-1.3-src\compiler\back-ends\c++-gen\kwd.c" "..\snacc-1.3-src\compiler\back-ends\c++-gen\rules.c" "..\snacc-1.3-src\compiler\back-ends\c++-gen\types.c"
+  types.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(141): warning C4101: “digit”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(142): warning C4101: “len”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(250): warning C4013: “strlen”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(252): warning C4013: “strcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(211): warning C4101: “digit”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(209): warning C4101: “unionName”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(207): warning C4101: “listName”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(208): warning C4101: “choiceName”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(210): warning C4101: “tmpT”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(435): warning C4013: “strcat”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(458): warning C4101: “digit”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(458): warning C4101: “i”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(458): warning C4101: “num”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(458): warning C4101: “tmpLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\types.c(631): warning C4013: “memcpy”未定义；假设外部返回 int
+  rules.c
+  kwd.c
+  gen-vals.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-vals.c(190): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-vals.c(195): warning C4244: “=”: 从“unsigned long”转换到“unsigned short”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-vals.c(201): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-vals.c(203): warning C4018: “<”: 有符号/无符号不匹配
+  gen-code.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c(173): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\time.inl(86) : 参见“ctime”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c(191): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\time.inl(86) : 参见“ctime”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c(562): warning C4101: “typesType”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c(558): warning C4101: “codeStr”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c(4454): warning C4101: “tag”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c(4455): warning C4101: “classStr”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c(4457): warning C4101: “tagLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c(4456): warning C4101: “formStr”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c(4980): warning C4101: “n”: 未引用的局部变量
+  gen-any.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c++-gen\gen-any.c(145): warning C4101: “typeId”: 未引用的局部变量
+  正在生成代码...
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D COMPILER /D USE_NIBBLE_MEMORY=0 /D USE_EXP_BUF /D FLEX_IN_USE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\snacc-1.3-src\compiler\back-ends\c-gen\gen-any.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\gen-code.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\gen-free.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\gen-type.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\gen-vals.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\kwd.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\rules.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c" "..\snacc-1.3-src\compiler\back-ends\c-gen\util.c"
+  util.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\util.c(49): warning C4013: “strcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\util.c(53): warning C4013: “strcat”未定义；假设外部返回 int
+  type-info.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(185): warning C4013: “memcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(214): warning C4013: “strlen”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(216): warning C4013: “strcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(238): warning C4013: “strcat”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(151): warning C4101: “digit”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(287): warning C4101: “digit”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(283): warning C4101: “listName”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(284): warning C4101: “choiceName”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(276): warning C4101: “typeStr”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(286): warning C4101: “tmpT”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(610): warning C4101: “digit”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(610): warning C4101: “i”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(610): warning C4101: “num”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(610): warning C4101: “tmpLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(610): warning C4101: “len”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(763): warning C4013: “strcmp”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(765): warning C4013: “ParseTypeId”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c(1258): warning C4013: “strncpy”未定义；假设外部返回 int
+  rules.c
+  kwd.c
+  gen-vals.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-vals.c(203): warning C4018: “<”: 有符号/无符号不匹配
+  gen-type.c
+  gen-print.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c(219): warning C4101: “tmpType”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c(220): warning C4101: “inTailOpts”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c(277): warning C4013: “IsTailOptional”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c(307): warning C4013: “NextIsTailOptional”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c(271): warning C4101: “tmpType”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c(374): warning C4013: “AllElmtsOptional”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c(453): warning C4101: “e”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c(492): warning C4101: “e”: 未引用的局部变量
+  gen-free.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-free.c(69): warning C4101: “e”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-free.c(256): warning C4101: “tmpType”: 未引用的局部变量
+  gen-enc.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.c(94): warning C4101: “elmtLevel”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.c(183): warning C4101: “e”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.c(528): warning C4101: “tmpTypeId”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.c(529): warning C4101: “idNamedType”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.c(639): warning C4101: “consTagCount”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.c(722): warning C4101: “codeStr”: 未引用的局部变量
+  gen-dec.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(247): warning C4101: “form”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(246): warning C4101: “t”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(243): warning C4101: “e”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(425): warning C4101: “tl”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(483): warning C4101: “tagCount”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(482): warning C4101: “tl”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(719): warning C4101: “i”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(713): warning C4101: “tl”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(995): warning C4101: “lastTag”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(1002): warning C4101: “i”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(989): warning C4101: “ctdi”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(999): warning C4101: “form”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(1605): warning C4013: “strcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(1460): warning C4101: “lastTag”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(1467): warning C4101: “i”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(1463): warning C4101: “form”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(1669): warning C4101: “lastTag”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(1676): warning C4101: “i”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c(1672): warning C4101: “form”: 未引用的局部变量
+  gen-code.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-code.c(180): warning C4013: “time”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-code.c(184): warning C4013: “ctime”未定义；假设外部返回 int
+  gen-any.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\c-gen\gen-any.c(253): warning C4013: “GetBuiltinType”未定义；假设外部返回 int
+  正在生成代码...
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D COMPILER /D USE_NIBBLE_MEMORY=0 /D USE_EXP_BUF /D FLEX_IN_USE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\..\snacc-1.3-src\compiler\back-ends\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\snacc-1.3-src\compiler\back-ends\cond.c" "..\snacc-1.3-src\compiler\back-ends\str-util.c" "..\snacc-1.3-src\compiler\back-ends\tag-util.c"
+  tag-util.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\tag-util.c(107): warning C4013: “memcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\tag-util.c(252): warning C4101: “stoleChoicesAgain”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\tag-util.c(253): warning C4101: “e”: 未引用的局部变量
+  str-util.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(78): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(118): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(141): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(170): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(271): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(275): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(375): warning C4090: “=”: 不同的“const”限定符
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(424): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(428): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(394): warning C4101: “pathName”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(470): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(471): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(464): warning C4101: “hdrCpy”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(463): warning C4101: “i”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(463): warning C4101: “len”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\str-util.c(463): warning C4101: “cpyIndex”: 未引用的局部变量
+  cond.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\cond.c(32): warning C4013: “strcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\cond.c(33): warning C4013: “strlen”未定义；假设外部返回 int
+  正在生成代码...
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D COMPILER /D USE_NIBBLE_MEMORY=0 /D USE_EXP_BUF /D FLEX_IN_USE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-any.c" "..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-code.c" "..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-vals.c" "..\snacc-1.3-src\compiler\back-ends\idl-gen\rules.c" "..\snacc-1.3-src\compiler\back-ends\idl-gen\types.c"
+  types.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(131): warning C4101: “digit”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(132): warning C4101: “len”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(242): warning C4013: “strlen”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(244): warning C4013: “strcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(201): warning C4101: “digit”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(199): warning C4101: “unionName”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(197): warning C4101: “listName”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(198): warning C4101: “choiceName”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(200): warning C4101: “tmpT”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(438): warning C4013: “strcat”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(463): warning C4101: “digit”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(463): warning C4101: “i”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(463): warning C4101: “num”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(463): warning C4101: “tmpLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\types.c(635): warning C4013: “memcpy”未定义；假设外部返回 int
+  rules.c
+  gen-vals.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\gen-vals.c(155): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\gen-vals.c(160): warning C4244: “=”: 从“unsigned long”转换到“unsigned short”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\gen-vals.c(166): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\gen-vals.c(168): warning C4018: “<”: 有符号/无符号不匹配
+  gen-code.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\gen-code.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\gen-code.c(68): warning C4013: “time”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\back-ends\idl-gen\gen-code.c(73): warning C4013: “ctime”未定义；假设外部返回 int
+  gen-any.c
+  正在生成代码...
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D COMPILER /D USE_NIBBLE_MEMORY=0 /D USE_EXP_BUF /D FLEX_IN_USE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\..\snacc-1.3-src\compiler\core\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\snacc-1.3-src\compiler\core\define.c" "..\snacc-1.3-src\compiler\core\dependency.c" "..\snacc-1.3-src\compiler\core\do-macros.c" "..\snacc-1.3-src\compiler\core\err-chk.c" "..\snacc-1.3-src\compiler\core\exports.c" "..\snacc-1.3-src\compiler\core\gen-tbls.c" "..\snacc-1.3-src\compiler\core\lex-asn1.c" "..\snacc-1.3-src\compiler\core\lib-types.c" "..\snacc-1.3-src\compiler\core\link-types.c" "..\snacc-1.3-src\compiler\core\link-values.c" "..\snacc-1.3-src\compiler\core\mem.c" "..\snacc-1.3-src\compiler\core\meta.c" "..\snacc-1.3-src\compiler\core\normalize.c" "..\snacc-1.3-src\compiler\core\oid.c" "..\snacc-1.3-src\compiler\core\parse-asn1.c" "..\snacc-1.3-src\compiler\core\print.c" "..\snacc-1.3-src\compiler\core\recursive.c" "..\snacc-1.3-src\compiler\core\snacc-util.c" "..\snacc-1.3-src\compiler\core\snacc.c" "..\snacc-1.3-src\compiler\core\tbl.c" "..\snacc-1.3-src\compiler\core\val-parser.c"
+  val-parser.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\val-parser.c(184): warning C4013: “strlen”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\val-parser.c(330): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\val-parser.c(299): warning C4101: “inComment”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\val-parser.c(402): warning C4101: “namedNumVal”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\val-parser.c(393): warning C4101: “newType”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\val-parser.c(659): warning C4013: “strncpy”未定义；假设外部返回 int
+  tbl.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(27): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(26): warning C4101: “listLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(58): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(57): warning C4101: “listLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(115): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(114): warning C4101: “listLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(155): warning C4133: “函数”: 从“TBLTagClass *”到“AsnInt *”的类型不兼容
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(146): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(145): warning C4101: “listLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(286): warning C4133: “函数”: 从“TBLTypeId *”到“AsnInt *”的类型不兼容
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(231): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(230): warning C4101: “listLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(308): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(307): warning C4101: “listLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(358): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(357): warning C4101: “listLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(432): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(431): warning C4101: “listLen”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(517): warning C4101: “component”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\tbl.c(516): warning C4101: “listLen”: 未引用的局部变量
+  snacc.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(663): warning C4013: “ParseValues”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(300): warning C4101: “retVal”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(308): warning C4101: “argsProcessed”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(310): warning C4101: “fPtr”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(301): warning C4101: “fd”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(299): warning C4101: “j”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(879): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(984): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(985): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(1119): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(1120): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc.c(1271): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+  snacc-util.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc-util.c(79): warning C4101: “tmpPtr”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc-util.c(132): warning C4013: “strlen”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc-util.c(133): warning C4013: “strcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc-util.c(227): warning C4013: “strcmp”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc-util.c(341): warning C4101: “oid1”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\snacc-util.c(342): warning C4101: “oid2”: 未引用的局部变量
+  recursive.c
+  print.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\print.c(156): warning C4101: “i”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\print.c(2379): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\print.c(2393): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\print.c(2395): warning C4018: “<”: 有符号/无符号不匹配
+  parse-asn1.c
+y.tab.c(2799): warning C4013: “yylex”未定义；假设外部返回 int
+core/parse-asn1.y(641): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+core/parse-asn1.y(711): warning C4013: “LexBeginInitialContext”未定义；假设外部返回 int
+core/parse-asn1.y(758): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+core/parse-asn1.y(759): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+core/parse-asn1.y(760): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+core/parse-asn1.y(926): warning C4013: “yyerror”未定义；假设外部返回 int
+core/parse-asn1.y(940): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+core/parse-asn1.y(942): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+core/parse-asn1.y(944): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+core/parse-asn1.y(950): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+core/parse-asn1.y(1870): warning C4013: “OidArcNameToNum”未定义；假设外部返回 int
+core/parse-asn1.y(1909): warning C4013: “AddNewValueDef”未定义；假设外部返回 int
+core/parse-asn1.y(1110): warning C4101: “n”: 未引用的局部变量
+core/parse-asn1.y(3090): warning C4013: “yyrestart”未定义；假设外部返回 int
+  oid.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\oid.c(83): warning C4013: “strcmp”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\oid.c(178): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\oid.c(179): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\oid.c(204): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\oid.c(205): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\oid.c(232): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\oid.c(250): warning C4018: “<”: 有符号/无符号不匹配
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\oid.c(252): warning C4018: “<”: 有符号/无符号不匹配
+  normalize.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\normalize.c(197): warning C4013: “CountTags”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\normalize.c(241): warning C4101: “origNext”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\normalize.c(237): warning C4101: “newElmt”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\normalize.c(545): warning C4013: “strlen”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\normalize.c(548): warning C4013: “strcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\normalize.c(549): warning C4013: “strcat”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\normalize.c(555): warning C4013: “AppendDigit”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\normalize.c(800): warning C4013: “memcpy”未定义；假设外部返回 int
+  meta.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\meta.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\meta.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  mem.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\mem.c(66): warning C4013: “memset”未定义；假设外部返回 int
+  link-values.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(223): warning C4101: “t”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(365): warning C4101: “impMod”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(364): warning C4101: “impElmt”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(361): warning C4101: “tmpType”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(366): warning C4101: “implicitRef”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(360): warning C4101: “tmpTypeDefs”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(359): warning C4101: “tmpTypeDef”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(363): warning C4101: “tmpElmtType”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(362): warning C4101: “tmpMod”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(667): warning C4101: “tmpMod”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(876): warning C4101: “impMod”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(875): warning C4101: “impElmt”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(879): warning C4101: “val”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(877): warning C4101: “lineNo”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-values.c(874): warning C4101: “tmpValueDef”: 未引用的局部变量
+  link-types.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-types.c(199): warning C4101: “v”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-types.c(382): warning C4101: “implicitRef”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-types.c(376): warning C4101: “tmpTypeDefs”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-types.c(378): warning C4101: “tmpMod”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\link-types.c(1026): warning C4101: “oid”: 未引用的局部变量
+  lib-types.c
+  lex-asn1.c
+core/lex-asn1.l(223): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+core/lex-asn1.l(399): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+core/lex-asn1.l(406): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+core/lex-asn1.l(413): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+core/lex-asn1.l(419): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+core/lex-asn1.l(426): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+core/lex-asn1.l(443): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+core/lex-asn1.l(461): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+core/lex-asn1.l(326): warning C4101: “c1”: 未引用的局部变量
+core/lex-asn1.l(326): warning C4101: “c2”: 未引用的局部变量
+<stdout>(3282): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(723) : 参见“fileno”的声明
+  gen-tbls.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\gen-tbls.c(139): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\gen-tbls.c(225): warning C4013: “strlen”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\gen-tbls.c(227): warning C4013: “strcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\gen-tbls.c(235): warning C4013: “FlattenLinkedOid”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\gen-tbls.c(217): warning C4101: “result”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\gen-tbls.c(304): warning C4013: “ParseAttr”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\gen-tbls.c(307): warning C4013: “strcmp”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\gen-tbls.c(308): warning C4013: “ParseBool”未定义；假设外部返回 int
+  exports.c
+  err-chk.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(326): warning C4013: “ParanoidGetBuiltinType”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(444): warning C4013: “PrintType”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(310): warning C4101: “origNext”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(309): warning C4101: “elmts”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(305): warning C4101: “i”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(313): warning C4101: “newDef”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(307): warning C4101: “newElmtHndl”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(305): warning C4101: “numElmtsAdded”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(306): warning C4101: “newElmt”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(656): warning C4101: “last”: 未引用的局部变量
+  do-macros.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\do-macros.c(115): warning C4101: “tmpTypeDefHndl”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\do-macros.c(169): warning C4013: “strlen”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\do-macros.c(170): warning C4013: “strcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\do-macros.c(176): warning C4013: “memcpy”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\do-macros.c(403): warning C4101: “retVal”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\do-macros.c(681): warning C4013: “strcat”未定义；假设外部返回 int
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\do-macros.c(660): warning C4101: “tmpNtHndl”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\do-macros.c(659): warning C4101: “nt”: 未引用的局部变量
+  dependency.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\dependency.c(345): warning C4101: “tdNodeToMove”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\dependency.c(344): warning C4101: “tdRef”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\dependency.c(347): warning C4101: “maxRefCount”: 未引用的局部变量
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\dependency.c(343): warning C4101: “tmpTd”: 未引用的局部变量
+  正在生成代码...
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\err-chk.c(746): warning C4715: “AddFirstTag”: 不是所有的控件路径都返回值
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc\core\lex-asn1.l(489): warning C4716: “LexBeginMacroDefContext”: 必须返回一个值
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc\core\lex-asn1.l(495): warning C4716: “LexBeginBraceBalContext”: 必须返回一个值
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc\core\lex-asn1.l(501): warning C4716: “LexBeginInitialContext”: 必须返回一个值
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc\core\parse-asn1.y(3067): warning C4716: “yyerror”: 必须返回一个值
+  正在编译...
+  define.c
+c:\documents and settings\tk\桌面\portable\snacc-1.3\snacc-1.3-src\compiler\core\define.c(48): warning C4013: “strcmp”未定义；假设外部返回 int
+  正在生成代码...
+ManifestResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\snacc.exe.embed.manifest.res" Debug\snacc_manifest.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\snacc.exe" /INCREMENTAL /NOLOGO libasn1cCebuf.lib libfl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\snacc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\snacc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\snacc.lib" /MACHINE:X86 Debug\snacc.exe.embed.manifest.res
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-any.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-vals.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\kwd.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\rules.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\types.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-any.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-code.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-free.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-type.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-vals.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\kwd.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\rules.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\type-info.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\util.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\cond.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\str-util.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\tag-util.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-any.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-code.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-vals.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\rules.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\types.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\define.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\dependency.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\do-macros.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\err-chk.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\exports.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\gen-tbls.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\lex-asn1.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\lib-types.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\link-types.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\link-values.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\mem.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\meta.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\normalize.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\oid.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\parse-asn1.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\print.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\recursive.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\snacc-util.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\snacc.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\tbl.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\val-parser.obj"
+  libasn1cCebuf.lib(asn-list.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  正在生成代码
+  已完成代码的生成
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\snacc.exe.embed.manifest" /manifest Debug\snacc.exe.intermediate.manifest
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\snacc.exe.embed.manifest.res" Debug\snacc_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\snacc.exe" /INCREMENTAL /NOLOGO libasn1cCebuf.lib libfl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\snacc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\snacc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\snacc.lib" /MACHINE:X86 Debug\snacc.exe.embed.manifest.res
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-any.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-vals.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\kwd.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\rules.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c++-gen\types.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-any.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-code.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-free.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-type.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\gen-vals.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\kwd.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\rules.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\type-info.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\c-gen\util.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\cond.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\str-util.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\tag-util.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-any.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-code.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-vals.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\rules.obj"
+  "Debug\..\snacc-1.3-src\compiler\back-ends\idl-gen\types.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\define.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\dependency.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\do-macros.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\err-chk.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\exports.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\gen-tbls.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\lex-asn1.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\lib-types.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\link-types.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\link-values.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\mem.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\meta.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\normalize.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\oid.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\parse-asn1.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\print.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\recursive.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\snacc-util.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\snacc.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\tbl.obj"
+  "Debug\..\snacc-1.3-src\compiler\core\val-parser.obj"
+  libasn1cCebuf.lib(asn-list.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  正在生成代码
+  已完成代码的生成
+  snacc.vcxproj -> C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Debug\snacc.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\snacc.unsuccessfulbuild”。
+  正在对“Debug\snacc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\snacc\snacc.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.56

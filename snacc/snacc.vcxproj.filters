@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\core">
+      <UniqueIdentifier>{fb04ed01-e466-4962-8a25-9b219f054b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\back-ends">
+      <UniqueIdentifier>{81be653a-4ba9-4357-8037-7a589b5cea45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\back-ends\c++-gen">
+      <UniqueIdentifier>{8726c2ca-82a7-4792-8ca7-93da383a9602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\back-ends\c-gen">
+      <UniqueIdentifier>{90b10940-a17c-4f22-a7ee-61f1f7834b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\back-ends\idl-gen">
+      <UniqueIdentifier>{23c2a2af-6019-4d51-993c-30f863536501}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\val-parser.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\define.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\dependency.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\do-macros.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\err-chk.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\exports.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\gen-tbls.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\lex-asn1.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\lib-types.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\link-types.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\link-values.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\mem.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\meta.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\normalize.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\oid.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\parse-asn1.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\print.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\recursive.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\snacc.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\snacc-util.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\core\tbl.c">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\tag-util.c">
+      <Filter>源文件\back-ends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\cond.c">
+      <Filter>源文件\back-ends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\str-util.c">
+      <Filter>源文件\back-ends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\util.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-any.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-code.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-dec.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-enc.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-free.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-print.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-type.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\gen-vals.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\kwd.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\rules.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c-gen\type-info.c">
+      <Filter>源文件\back-ends\c-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\types.c">
+      <Filter>源文件\back-ends\c++-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-any.c">
+      <Filter>源文件\back-ends\c++-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-code.c">
+      <Filter>源文件\back-ends\c++-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\gen-vals.c">
+      <Filter>源文件\back-ends\c++-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\kwd.c">
+      <Filter>源文件\back-ends\c++-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\c++-gen\rules.c">
+      <Filter>源文件\back-ends\c++-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\idl-gen\types.c">
+      <Filter>源文件\back-ends\idl-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-any.c">
+      <Filter>源文件\back-ends\idl-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-code.c">
+      <Filter>源文件\back-ends\idl-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\idl-gen\gen-vals.c">
+      <Filter>源文件\back-ends\idl-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snacc-1.3-src\compiler\back-ends\idl-gen\rules.c">
+      <Filter>源文件\back-ends\idl-gen</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,116 @@
+﻿生成启动时间为 2015-12-21 22:24:58。
+项目“C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\libasn1cmbuf\libasn1cmbuf.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在创建“Release\libasn1cmbuf.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /D USE_MIN_BUF /D FLEX_IN_USE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\snacc-1.3-src\c-lib\mbuf\asn-any.c" "..\snacc-1.3-src\c-lib\mbuf\asn-bits.c" "..\snacc-1.3-src\c-lib\mbuf\asn-bool.c" "..\snacc-1.3-src\c-lib\mbuf\asn-enum.c" "..\snacc-1.3-src\c-lib\mbuf\asn-int.c" "..\snacc-1.3-src\c-lib\mbuf\asn-len.c" "..\snacc-1.3-src\c-lib\mbuf\asn-list.c" "..\snacc-1.3-src\c-lib\mbuf\asn-null.c" "..\snacc-1.3-src\c-lib\mbuf\asn-octs.c" "..\snacc-1.3-src\c-lib\mbuf\asn-oid.c" "..\snacc-1.3-src\c-lib\mbuf\asn-real.c" "..\snacc-1.3-src\c-lib\mbuf\asn-tag.c" "..\snacc-1.3-src\c-lib\mbuf\asn-useful.c" "..\snacc-1.3-src\c-lib\mbuf\exp-buf.c" "..\snacc-1.3-src\c-lib\mbuf\hash.c" "..\snacc-1.3-src\c-lib\mbuf\nibble-alloc.c" "..\snacc-1.3-src\c-lib\mbuf\print.c" "..\snacc-1.3-src\c-lib\mbuf\sbuf.c" "..\snacc-1.3-src\c-lib\mbuf\str-stk.c" "..\snacc-1.3-src\c-lib\mbuf\tbl-dbg.c" "..\snacc-1.3-src\c-lib\mbuf\tbl-dec.c" "..\snacc-1.3-src\c-lib\mbuf\tbl-enc.c" "..\snacc-1.3-src\c-lib\mbuf\tbl-free.c" "..\snacc-1.3-src\c-lib\mbuf\tbl-gen.c" "..\snacc-1.3-src\c-lib\mbuf\tbl-print.c" "..\snacc-1.3-src\c-lib\mbuf\tbl-util.c" "..\snacc-1.3-src\c-lib\mbuf\tbl.c"
+  asn-any.c
+  asn-bits.c
+..\snacc-1.3-src\c-lib\mbuf\asn-bits.c(120): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-bits.c(330): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-bits.c(372): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-bits.c(393): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-bits.c(416): warning C4018: “<”: 有符号/无符号不匹配
+  asn-bool.c
+  asn-enum.c
+  asn-int.c
+..\snacc-1.3-src\c-lib\mbuf\asn-int.c(121): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-int.c(166): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-int.c(271): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-int.c(298): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-int.c(350): warning C4018: “<”: 有符号/无符号不匹配
+  asn-len.c
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(46): warning C4244: “=”: 从“AsnLen”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(51): warning C4244: “=”: 从“AsnLen”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(57): warning C4244: “=”: 从“AsnLen”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(58): warning C4244: “=”: 从“AsnLen”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(64): warning C4244: “=”: 从“AsnLen”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(65): warning C4244: “=”: 从“AsnLen”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(66): warning C4244: “=”: 从“AsnLen”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(72): warning C4244: “=”: 从“AsnLen”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(73): warning C4244: “=”: 从“AsnLen”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(74): warning C4244: “=”: 从“AsnLen”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(95): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-len.c(101): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+  asn-list.c
+  asn-null.c
+  asn-octs.c
+..\snacc-1.3-src\c-lib\mbuf\asn-octs.c(282): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-octs.c(290): warning C4018: “<”: 有符号/无符号不匹配
+  asn-oid.c
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(125): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(130): warning C4244: “=”: 从“unsigned long”转换到“unsigned short”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(136): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(138): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(235): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(236): warning C4244: “=”: 从“unsigned long”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(261): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(262): warning C4244: “=”: 从“long”转换到“char”，可能丢失数据
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(289): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(307): warning C4018: “<”: 有符号/无符号不匹配
+..\snacc-1.3-src\c-lib\mbuf\asn-oid.c(309): warning C4018: “<”: 有符号/无符号不匹配
+  asn-real.c
+..\snacc-1.3-src\c-lib\mbuf\asn-real.c(796): warning C4018: “<”: 有符号/无符号不匹配
+  asn-tag.c
+  asn-useful.c
+..\snacc-1.3-src\c-lib\mbuf\asn-useful.c(399): warning C4101: “component”: 未引用的局部变量
+..\snacc-1.3-src\c-lib\mbuf\asn-useful.c(398): warning C4101: “listLen”: 未引用的局部变量
+..\snacc-1.3-src\c-lib\mbuf\asn-useful.c(454): warning C4101: “tagId2”: 未引用的局部变量
+..\snacc-1.3-src\c-lib\mbuf\asn-useful.c(453): warning C4101: “elmtLen2”: 未引用的局部变量
+..\snacc-1.3-src\c-lib\mbuf\asn-useful.c(599): warning C4101: “component”: 未引用的局部变量
+..\snacc-1.3-src\c-lib\mbuf\asn-useful.c(598): warning C4101: “listLen”: 未引用的局部变量
+..\snacc-1.3-src\c-lib\mbuf\asn-useful.c(653): warning C4101: “tagId2”: 未引用的局部变量
+..\snacc-1.3-src\c-lib\mbuf\asn-useful.c(652): warning C4101: “elmtLen2”: 未引用的局部变量
+  exp-buf.c
+  hash.c
+  nibble-alloc.c
+..\snacc-1.3-src\c-lib\mbuf\nibble-alloc.c(112): warning C4018: “<”: 有符号/无符号不匹配
+  print.c
+  sbuf.c
+  str-stk.c
+  tbl-dbg.c
+  正在编译...
+  tbl-dec.c
+  tbl-enc.c
+  tbl-free.c
+  tbl-gen.c
+  tbl-print.c
+  tbl-util.c
+  tbl.c
+Lib:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Release\libasn1cmbuf.lib" /NOLOGO /LTCG "Release\asn-any.obj"
+  "Release\asn-bits.obj"
+  "Release\asn-bool.obj"
+  "Release\asn-enum.obj"
+  "Release\asn-int.obj"
+  "Release\asn-len.obj"
+  "Release\asn-list.obj"
+  "Release\asn-null.obj"
+  "Release\asn-octs.obj"
+  "Release\asn-oid.obj"
+  "Release\asn-real.obj"
+  "Release\asn-tag.obj"
+  "Release\asn-useful.obj"
+  "Release\exp-buf.obj"
+  Release\hash.obj
+  "Release\nibble-alloc.obj"
+  Release\print.obj
+  Release\sbuf.obj
+  "Release\str-stk.obj"
+  "Release\tbl-dbg.obj"
+  "Release\tbl-dec.obj"
+  "Release\tbl-enc.obj"
+  "Release\tbl-free.obj"
+  "Release\tbl-gen.obj"
+  "Release\tbl-print.obj"
+  "Release\tbl-util.obj"
+  Release\tbl.obj
+  libasn1cmbuf.vcxproj -> C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\Release\libasn1cmbuf.lib
+FinalizeBuildStatus:
+  正在删除文件“Release\libasn1cmbuf.unsuccessfulbuild”。
+  正在对“Release\libasn1cmbuf.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Documents and Settings\tk\桌面\Portable\snacc-1.3\libasn1cmbuf\libasn1cmbuf.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.53

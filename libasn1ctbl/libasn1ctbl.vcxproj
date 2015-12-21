@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8FBCF575-B725-49B5-9F93-BF638CC52D77}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libasn1ctbl</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)snacc-1.3-src;$(SolutionDir)snacc-1.3-src\c-lib\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)snacc-1.3-src;$(SolutionDir)snacc-1.3-src\c-lib\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);USE_GEN_BUF;TTBL;FLEX_IN_USE</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);USE_GEN_BUF;TTBL;FLEX_IN_USE</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-any.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-bits.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-bool.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-enum.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-int.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-len.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-list.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-null.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-octs.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-oid.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-real.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-tag.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\asn-useful.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\exp-buf.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\hash.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\nibble-alloc.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\print.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\sbuf.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\str-stk.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\tbl-dbg.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\tbl-dec.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\tbl-enc.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\tbl-free.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\tbl-gen.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\tbl-print.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\tbl-util.c" />
+    <ClCompile Include="..\snacc-1.3-src\c-lib\tbl\tbl.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
